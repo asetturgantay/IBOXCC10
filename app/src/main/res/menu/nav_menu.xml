@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_home"
+            android:icon="@drawable/ic_home"
+            android:title="Главная"
+            />
+
+        <item
+            android:id="@+id/action_menu"
+            android:icon="@drawable/ic_menu"
+            android:title="Еще"
+            />
+
+        <item
+            android:id="@+id/action_payment"
+            android:icon="@drawable/ic_payment"
+            android:title="Оплата"
+            />
+
+
+        <item
+            android:id="@+id/action_message"
+            android:icon="@drawable/baseline_message_24"
+            android:title="Собщение"
+            />
+    </group>
+
+    <item android:title="Дополнительно">
+        <menu>
+            <item
+                android:id="@+id/action_about"
+                android:icon="@drawable/ic_about"
+                android:title="О программе"/>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Настройки"/>
+            <item
+                android:id="@+id/action_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="Выход"/>
+        </menu>
+    </item>
+</menu>

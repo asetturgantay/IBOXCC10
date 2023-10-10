@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    tools:context=".activities.LoginActivity">
+
+    <ImageView
+        android:contentDescription="@string/ibox_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="72dp"
+        app:srcCompat="@drawable/ic_teamwork" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_label"
+        android:textColor="@color/colorGray" />
+
+    <EditText
+        android:id="@+id/et_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:hint="@string/email_hint"
+        android:text="bekzat"
+        android:textColor="@color/colorGray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password_label"
+        android:textColor="@color/colorGray" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:hint="@string/password_hint"
+        android:text="123"
+        android:inputType="textPassword"
+        android:textColor="@color/colorGray" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGray"
+        android:text="@string/login"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/login_registration"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Регистрация"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorGray"/>
+
+
+</LinearLayout>

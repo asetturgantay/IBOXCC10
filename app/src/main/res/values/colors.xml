@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGray">#29739B</color>
+    <color name="colorGrayTransparent">#8029739B</color>
+    <color name="colorGrayPrimary">#1F5E80</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorHint">#432B749C</color>
+    <color name="colorDialogText">#F5686B6B</color>
+    <color name="colorBlue">#c5efff</color>
+    <color name="aqiGood">#248e25</color>
+    <color name="aqiModerate">#C9C901</color>
+    <color name="aqiModerateUnhealthy">#D97710</color>
+    <color name="aqiUnhealthy">#f54746</color>
+    <color name="aqiVeryUnhealthy">#ac4477</color>
+    <color name="aqiHazardous">#98435a</color>
+</resources>

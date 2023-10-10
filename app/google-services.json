@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305433121851",
+    "project_id": "ibox-a88b5",
+    "storage_bucket": "ibox-a88b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305433121851:android:87ead91b656ff4b6d2781e",
+        "android_client_info": {
+          "package_name": "www.kaznu.kz.projects.ibox"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNCWzxnQ5DGv8nXZNTRkNatCXFyThI-Vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

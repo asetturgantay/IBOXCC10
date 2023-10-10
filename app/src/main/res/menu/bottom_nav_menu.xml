@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/bottom_drawer_item_main"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_maps"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/bottom_drawer_item_maps"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_values"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/bottom_drawer_item_settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_menu"
+        android:enabled="true"
+        android:icon="@drawable/ic_bluetooth"
+        android:title="@string/bottom_drawer_item_custom"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorGray</item>
+        <item name="colorPrimaryDark">@color/colorGrayPrimary</item>
+        <item name="colorAccent">@color/colorGray</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+
+    <style name="LoginTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorGray</item>
+        <item name="colorPrimaryDark">@color/colorGrayPrimary</item>
+        <item name="colorAccent">@color/colorGray</item>
+        <item name="editTextColor">@color/colorGray</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+    </style>
+
+</resources>

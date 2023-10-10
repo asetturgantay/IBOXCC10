@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:textColor="@color/colorGray"
+        android:id="@+id/infnameText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="AQI" />
+
+
+    <ImageView
+        android:id="@+id/infImage"
+        android:layout_width="260dp"
+        android:layout_height="300dp"
+        android:src="@mipmap/aqi"/>
+
+    <TextView
+        android:textColor="@color/colorGray"
+        android:id="@+id/infText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:text="Info" />
+
+</LinearLayout>
+</ScrollView>

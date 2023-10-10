@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LoginTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorGray</item>
+        <item name="colorPrimaryDark">@color/colorGrayPrimary</item>
+        <item name="colorAccent">@color/colorGray</item>
+        <item name="editTextColor">@color/colorGray</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="colorControlNormal">@color/colorHint</item>
+    </style>
+</resources>
